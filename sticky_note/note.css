@@ -1,0 +1,118 @@
+/* Global reset for consistent styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right bottom, #b40eca, #4a148c);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+/* Heading (h1) styling */
+h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Styling for the add button */
+#addBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: white;
+    background-color: #179712;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Add button hover effect */
+#addBtn:hover {
+    background-color: #0f7b08;
+}
+
+/* Main container where notes are placed */
+#main {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Individual note container */
+.note {
+    width: 300px;
+    min-height: 300px;
+    height: auto;
+    background-color: #393e46;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Toolbar at the top of each note */
+.tool {
+    background-color: #222831;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Icons inside the toolbar */
+.tool i {
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for toolbar icons */
+.tool i:hover {
+    color: #ff7675;
+}
+
+/* Textarea inside each note for writing */
+.note textarea {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    flex-grow: 1;
+    resize: none;
+    outline: none;
+}
+
+/* Textarea focus effect */
+.note textarea:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Optional: You can add a slight hover effect on notes */
+.note:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
