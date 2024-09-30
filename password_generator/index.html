@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator0</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Generator</h1>
+      <div class="inputbox">
+        <input type="text" class="passBox" id="passBox" />
+        <span class="material-symbols-outlined"> content_copy </span>
+      </div>
+
+      <input type="range" min="10" max="30" value="10" id="inputSlider" />
+
+      <div class="row">
+        <p>Password Length</p>
+        <span id="sliderValue">10</span>
+      </div>
+
+      <div class="row">
+        <label for="lowercase">Include Lowercase Letters(a-z)</label>
+        <input type="checkbox" name="lowercase" id="lowercase" checked />
+      </div>
+
+      <div class="row">
+        <label for="uppercase">Include Uppercase Letters(A-Z)</label>
+        <input type="checkbox" name="lowercase" id="lowercase" checked />
+      </div>
+
+      <div class="row">
+        <label for="numbers">Include Numbers Letters(0-9)</label>
+        <input type="checkbox" name="lowercase" id="lowercase" checked />
+      </div>
+
+      <div class="row">
+        <label for="symbols">Include Symbol Letters(@-*)</label>
+        <input type="checkbox" name="lowercase" id="lowercase" checked />
+      </div>
+      <button type="button" class="getBtn" id="getBtn">
+        Generate Password
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
