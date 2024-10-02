@@ -1,123 +1,121 @@
 /* Global Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #574d56; /* Dark background to contrast with card */
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  /* Container styling */
-  .container {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    width: 29%;
-    text-align: center;
-  }
-  
-  /* Header */
-  .container h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  /* Input Box Styling */
-  .inputbox {
-    position: relative;
-    margin-bottom: 20px;
-  }
-  
-  .passBox {
-    width: 100%;
-    padding: 10px 40px 10px 15px; /* Added padding for icon spacing */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    color: #333;
-    outline: none;
-    transition: all 0.3s ease;
-  }
-  
-  .passBox:focus {
-    border-color: #4CAF50;
-  }
-  
-  .inputbox .material-symbols-outlined {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    font-size: 24px;
-    color: #333;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .inputbox .material-symbols-outlined:hover {
-    color: #4CAF50;
-  }
-  
-  /* Slider Styling */
-  input[type="range"] {
-    width: 100%;
-    margin-bottom: 10px;
-    -webkit-appearance: none;
-    appearance: none;
-    height: 8px;
-    background: #ddd;
-    outline: none;
-    border-radius: 5px;
-  }
-  
-  input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background: #4CAF50;
-    cursor: pointer;
-  }
-  
-  /* Slider value row */
-  .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
-  
-  .row p {
-    font-weight: 700;
-  }
-  /* Generate Button */
-  .getBtn {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
-    width: 100%;
-  }
-  
-  .getBtn:hover {
-    background-color: #3e8842;
-  }
-  
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #574d56; /* Dark background to contrast with card */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container styling */
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 29%;
+  text-align: center;
+}
+
+/* Header */
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input Box Styling */
+.inputbox {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.passBox {
+  width: 100%;
+  padding: 10px 40px 10px 15px; /* Added padding for icon spacing */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.passBox:focus {
+  border-color: #4CAF50;
+}
+
+.inputbox .material-symbols-outlined {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.inputbox .material-symbols-outlined:hover {
+  color: #4CAF50;
+}
+
+/* Slider Styling */
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  background: #ddd;
+  outline: none;
+  border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+/* Slider value row */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.row p {
+  font-weight: 700;
+}
+/* Generate Button */
+.getBtn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.getBtn:hover {
+  background-color: #3e8842;
+}
