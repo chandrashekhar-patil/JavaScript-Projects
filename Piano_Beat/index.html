@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Piano Application</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="piano-container">
+        <h1>Piano App</h1>
+        <div class="piano">
+            <div class="white-keys">
+                <button onclick="playSound('C')" class="white-key">C</button>
+                <button onclick="playSound('D')" class="white-key">D</button>
+                <button onclick="playSound('E')" class="white-key">E</button>
+                <button onclick="playSound('F')" class="white-key">F</button>
+                <button onclick="playSound('G')" class="white-key">G</button>
+                <button onclick="playSound('A')" class="white-key">A</button>
+                <button onclick="playSound('B')" class="white-key">B</button>
+                <button onclick="playSound('C2')" class="white-key">C2</button>
+            </div>
+            <div class="black-keys">
+                <button onclick="playSound('C#')" class="black-key">C#</button>
+                <button onclick="playSound('D#')" class="black-key">D#</button>
+                <button class="invisible-key"></button> <!-- Gap between black keys -->
+                <button onclick="playSound('F#')" class="black-key">F#</button>
+                <button onclick="playSound('G#')" class="black-key">G#</button>
+                <button onclick="playSound('A#')" class="black-key">A#</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
