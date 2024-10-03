@@ -1,4 +1,4 @@
-# Digital Piano Application
+# Digital Piano Application ⭐
 
 ## Overview
 The Digital Piano Application is an interactive web-based platform that allows users to play piano notes through a user-friendly interface. The app features a virtual piano with realistic sound playback for various notes, enabling users to create music easily.
